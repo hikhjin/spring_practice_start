@@ -10,7 +10,7 @@ import javax.swing.text.html.Option;
 import java.util.List;
 import java.util.Optional;
 
-@Service // 빈에 등록
+// @Service // 빈에 등록
 public class MemberService {
 
     // private final MemberRepository memberRepository = new MemoryMemberRepository(); // 같은 레포지토리가 아니어서 문제될 수 있음
