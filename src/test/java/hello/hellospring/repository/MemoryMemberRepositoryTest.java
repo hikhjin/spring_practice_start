@@ -57,7 +57,6 @@ class MemoryMemberRepositoryTest {
         repository.save(member2);
 
         List<Member> result = repository.findAll();
-
         assertThat(result.size()).isEqualTo(2);
     }
 
